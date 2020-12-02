@@ -1,0 +1,8 @@
+const CURRENT_YEAR = 2020;
+
+const FEATURES = {
+    HUMAN_RIGHTS: (CURRENT_YEAR >= 2000),
+    COVID: (CURRENT_YEAR === 2020)
+};
+
+export {FEATURES};
